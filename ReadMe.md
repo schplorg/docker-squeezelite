@@ -4,4 +4,4 @@
 `docker build -t squeezelite ./`
 
 ## Usage
-`docker run -it --rm --privileged --nethost squeezelite`
+`docker run -it --rm --privileged --nethost squeezelite squeezelite -M MEEGO -n MEE`
