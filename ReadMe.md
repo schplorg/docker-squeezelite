@@ -1,4 +1,7 @@
 # Squeezelite inside Docker
 
-On Fedora 29 you need to run:
-`sudo docker run -it --rm --privileged --nethost squeeze-client`
+## Building
+`docker build -t squeezelite ./`
+
+## Usage
+`docker run -it --rm --privileged --nethost squeezelite`
